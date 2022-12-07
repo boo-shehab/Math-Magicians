@@ -4,17 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .special-button {
   background-color: orange;
 }
 
 #root {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  width: 400px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  grid-template-columns: auto 1fr;
 }
 
 #root .view-num {
