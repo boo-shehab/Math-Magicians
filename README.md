@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-coming soon
+coming soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
